@@ -1,0 +1,113 @@
+.heading{
+    position: relative;
+    top:2rem;
+    font-size: 3.5rem;
+    font-weight: 300; 
+    text-transform: uppercase;
+    color: $color-white;   
+    
+    font-family: monospace;
+ 
+     &__side{
+         //position: absolute;
+         width: 90rem;
+         color: $color-white;
+         //border-radius: 1px;
+         //background-color: orangered;
+         //color: $color-white;
+        // box-shadow: 0 1.5rem 4rem rgba($color-black,0.15); 
+         //transition: all 1s ease;
+         //backface-visibility: hidden;
+         //overflow: hidden; 
+         
+     }
+ 
+     &__picture{         
+         height: 45rem;
+         background-size: cover;
+         background-blend-mode: screen;
+         clip-path: polygon(0 0,100% 0,100% 85%, 0 100%);
+ 
+         &--1{
+            background-image: linear-gradient(to bottom right, rgba($color-tertiary-dark,0.95), rgba($color-secondary-ligth,0.95)), url(../img/wallpaper.jpg);
+         }
+     }
+
+     &__logo{ 
+         position: absolute;
+         top: 2rem;      
+
+        img{                              
+            width: 15%;
+            height: 20%;
+            //left: 3rem;
+        }
+
+        animation:moveTop 1.2s ease-in-out .5s;
+                
+     }
+     &__span{
+        position: absolute;
+        //top: 12rem;
+        margin: 0 28rem; 
+       // box-decoration-break: clone;
+         
+         &-1{
+            font-size: 6rem;
+            top: 10rem;
+            margin-left: 35rem;
+            animation: moveleft 1.2s ease-in-out .5s;
+         }
+
+         &-2{
+            font-size: 2rem;
+            top: 18rem;
+            left: 2rem; 
+            animation: moveRight 1.2s ease-in-out .5s;
+         }
+
+         &-3{
+            font-size: 6rem;
+            top: 20rem;
+            animation: moveleft 1.2s ease-in-out .5s;
+         }
+     }
+ }
+ 
+ label{
+     color: darkcyan;
+ }
+
+ .contacto{
+     
+    input,textarea,button{
+        margin-top: 2rem;
+    }
+ }
+
+ .item{
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: rgba(168,168,168,0.6);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    font-weight: bold;
+    font-size: 1.5rem;
+
+ }
+
+ /*========================================
+=            EFFECTO PARALLAX            =
+========================================*/
+
+.parallax{
+	padding: 100px 50px;
+	background: url(../img/img2.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+
+ 

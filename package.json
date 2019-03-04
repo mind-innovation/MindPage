@@ -1,0 +1,15 @@
+{
+  "name": "mindmean",
+  "version": "1.0.0",
+  "description": "landing page mean (mongo, express, angular, nodejs)",
+  "main": "index.js",
+  "scripts": {
+    "compile":"node-sass sass/main.scss css/style.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vicente Olivares",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
