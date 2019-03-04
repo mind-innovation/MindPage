@@ -17,7 +17,7 @@ $("#enviar").click(function(){
     parametros.append('message',message);
 
         //console.log(datos);
-    let ruta = 'http://localhost:81/MindMean/';
+    let ruta = 'https://mind-innovation.xyz/';
     $.ajax({
         url: ruta + 'ajax/send.php',
         method: 'post',

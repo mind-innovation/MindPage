@@ -86,11 +86,12 @@
  }
 
  .item{
+     color:black;
     position: relative;
     display: block;
     padding: 0.75rem 1.25rem;
     margin-bottom: -1px;
-    background-color: rgba(168,168,168,0.6);
+    background-color: rgba(168,168,168,0.3);
     border: 1px solid rgba(0, 0, 0, 0.125);
     font-weight: bold;
     font-size: 1.5rem;
@@ -103,7 +104,7 @@
 
 .parallax{
 	padding: 100px 50px;
-	background: url(../img/img2.png);
+	background: url(../img/img3.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
