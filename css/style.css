@@ -28,6 +28,11 @@
     opacity: 1;
     transform: translateY(0); } }
 
+#map {
+        width: 600px;
+        height: 450px;
+    }
+
 .heading {
   position: relative;
   top: 2rem;

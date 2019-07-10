@@ -18,7 +18,7 @@
     <!--<script src="vendor/jquery/jquery-3.3.1.min.js"></script>-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="vendor/boostrap/js/bootstrap.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script> 
 </head>
 <body> 
     <main>
@@ -118,8 +118,8 @@
             <div class="rows">
                 <div class="col-1-of-2" style="margin-left:15px;">
                     <h2 class="text-center">Ubicación</h2>
-                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115190.03115318331!2d-103.47195660248181!3d25.548751924639088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fdba9bb45b3fb%3A0x8bcc7a9970aea01d!2zVG9ycmXDs24sIENvYWgu!5e0!3m2!1ses-419!2smx!4v1550520859259" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-               
+                     <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115190.03115318331!2d-103.47195660248181!3d25.548751924639088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fdba9bb45b3fb%3A0x8bcc7a9970aea01d!2zVG9ycmXDs24sIENvYWgu!5e0!3m2!1ses-419!2smx!4v1550520859259" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+                     <div id="map"></div>
                 </div>
             </div>               
         </section>
@@ -157,5 +157,9 @@
 
     <!-- SCRIPTS -->  
     <script src="js/ajax.js"></script>
+    <script src="js/maps.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQU5Q2iRZTU7Os0NCaMnw51ZPQbZjc1-k&callback=loadMap"
+    type="text/javascript"></script> 
+     
 </body>
 </html>
